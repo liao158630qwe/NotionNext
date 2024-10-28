@@ -323,6 +323,16 @@ const BLOG = {
       cover:
         'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     }
+,
+    {
+      name: '孤独患者',
+      artist: '陈奕迅',
+      url: 'https://music.163.com/song/media/outer/url?id=64093.mp3',
+      cover:
+        'https://p2.music.126.net/Po0tJTtv4aBaYozWlnojHg==/18546562139313276.jpg'
+    }
+
+    
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
